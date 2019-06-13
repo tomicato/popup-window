@@ -1,0 +1,111 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /*background: url('../img/WallpaperStudio10-112192.jpg') no-repeat;
+    background-size: cover;*/
+}
+/*input[type="submit"]{
+    color: #fff;
+    background: #71abff;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 0 auto;
+    display: block;
+    opacity: 1;
+    transition: opacity 2s;
+    animation: bgchange 2s;
+
+}*/
+.win_open,.do_call{
+    color: #fff;
+    background: #71abff;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 0 auto;
+    display: block;
+    opacity: 1;
+    transition: opacity 2s;
+    animation: bgchange 2s;
+}
+#popup-window{
+    margin: 0 auto;
+    text-align: center;
+}
+.popup{
+    position: fixed;
+    background: #ffffff;
+    width: 50%;
+    height: 50%;
+    overflow: auto;
+    margin: auto;
+    top: 0; left: 0; bottom: 0; right: 0;
+    padding: 20px 20px;
+    opacity: 0;
+    z-index: 2;
+    font-size: 16px;
+    font-family: 'Roboto Light', sans-serif;
+    text-align: left;
+    transition: opacity 1s;
+    animation: bgchange 1s;
+    margin-top: 200px;
+}
+
+.overlay{
+    position: fixed;
+    background: rgba(0,0,0,0.6);
+    margin: auto;
+    top: 0; left: 0; bottom: 0; right: 0;
+    display: none;
+    opacity: 0;
+    z-index: 1;
+    cursor: pointer;
+    transition: opacity 1s;
+    animation: bgchange 1s;
+
+}
+
+@keyframes bgchange {
+    100% {opacity: 1}
+    0% { opacity: 0 }
+}
+
+
+.show{
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 1s;
+    animation: bgchange 1s;
+}
+.myclass{
+
+}
+
+/*Some Text block*/
+
+#some-text {
+    margin-top: 20px;
+    margin-bottom: 300px;
+}
+#some-text h2{
+    text-align: center;
+}
+.form-call-me{
+
+    display: none;
+}
+.call-me{
+    text-align: center;
+    position: fixed;
+    width: 50%;
+    height: 50%;
+    overflow: auto;
+    margin: 5% auto;
+}
+
+.blue{
+    background: rgba(30, 144, 255, 0.5);
+    color:red;
+}
